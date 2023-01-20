@@ -1,6 +1,6 @@
 # t3-cua-tools
 
-This is a set of tools for apps created with the create-t3-universal-app tool or cloned from the [CRA](https://github.com/chen-rn/CUA) (create-universal-app) template.
+This is a VSCode extension that consists of a set of tools for apps created with the create-t3-universal-app tool or cloned from the [CRA](https://github.com/chen-rn/CUA) (create-universal-app) template.
 
 ## Usage
 
