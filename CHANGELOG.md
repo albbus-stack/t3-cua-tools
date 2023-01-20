@@ -2,8 +2,9 @@
 
 All notable changes to the "t3-cua-tools" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## [1.0.0]
 
-## [Unreleased]
-
-- Initial release
+- Initial release with 3 commands:
+  - `t3-cua-tools.newScreen`
+  - `t3-cua-tools.newComponent`
+  - `t3-cua-tools.newRoute`
