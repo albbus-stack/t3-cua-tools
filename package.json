@@ -4,6 +4,7 @@
   "description": "",
   "version": "0.0.1",
   "license": "MIT",
+  "publisher": "albbus-stack",
   "author": {
     "name": "Alberto Del Buono Paolini",
     "url": "https://github.com/albbus-stack"
