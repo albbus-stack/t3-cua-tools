@@ -2,7 +2,7 @@
   "name": "t3-cua-tools",
   "displayName": "t3-cua-tools",
   "description": "",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "license": "MIT",
   "publisher": "albbus-stack",
   "author": {
@@ -27,15 +27,15 @@
     "commands": [
       {
         "command": "t3-cua-tools.newScreen",
-        "title": "New Screen"
+        "title": "t3-cua-tools: New Screen"
       },
       {
         "command": "t3-cua-tools.newComponent",
-        "title": "New Component"
+        "title": "t3-cua-tools: New Component"
       },
       {
         "command": "t3-cua-tools.newRoute",
-        "title": "New Route"
+        "title": "t3-cua-tools: New API Route"
       }
     ]
   },
