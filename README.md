@@ -17,6 +17,6 @@ Input the new screen name in CapitalizedCamelCase (i.e. the name that you would 
 
 Input the new component name in CapitalizedCamelCase. Subsequently this command will generate a new component under the `packages/ui/src/components` folder. After that it will open the new `{ComponentName}.tsx` file for you to modify.
 
-### New Route
+### New API Route
 
-Input the new route name in lowercaseCamelCase. Subsequently this command will generate a new router in the `packages/api/src/router` folder and add that to the `index.ts` router. After that it will open the new `{routeName.ts}` file for you to modify.
+Input the new API route name in lowercaseCamelCase. Subsequently this command will generate a new router in the `packages/api/src/router` folder and add that to the `index.ts` router. After that it will open the new `{routeName.ts}` file for you to modify.
