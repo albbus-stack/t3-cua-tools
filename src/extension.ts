@@ -21,8 +21,6 @@ const isWithExpoRouter = async (workspaceFolder: vscode.WorkspaceFolder) => {
     }
   });
 
-  console.log("wep:", withExpoRouter);
-
   return withExpoRouter;
 };
 
