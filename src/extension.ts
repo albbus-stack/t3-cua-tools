@@ -321,7 +321,7 @@ export function activate(context: vscode.ExtensionContext) {
 
       // Create the new component file
       const componentFileData = new TextEncoder().encode(
-        `import { Paragraph, YStack } from "@my/ui";\nimport React from "react";\nimport { useLink } from "solito/link";\n\nexport function ${componentName}() {\n  return (\n    <YStack f={1} jc="center" ai="center" space>\n      <Paragraph ta="center" fow="800">\n        ${componentName}\n      </Paragraph>\n    </YStack>\n  );\n} `
+        `import { Paragraph, YStack } from "@my/ui";\nimport React from "react";\n\nexport function ${componentName}() {\n  return (\n    <YStack f={1} jc="center" ai="center" space>\n      <Paragraph ta="center" fow="800">\n        ${componentName}\n      </Paragraph>\n    </YStack>\n  );\n} `
       );
       await vscode.workspace.fs.writeFile(newFileUri, componentFileData);
 
