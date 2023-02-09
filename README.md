@@ -3,7 +3,7 @@
 ![Typescript](https://shields.io/badge/TypeScript-3178C6?logo=TypeScript&logoColor=FFF&style=flat-square)
 ![Code](https://shields.io/badge/VSCode-00495c?logo=visual-studio-code&logoColor=FFF&style=flat-square)
 
-This is a VSCode extension that consists of a set of tools for apps created with the create-t3-universal-app tool or cloned from the [CUA](https://github.com/chen-rn/CUA) (create-universal-app) template.
+This is a VSCode extension that consists of a set of tools for apps created with the create-t3-universal-app tool or cloned from the [CUA](https://github.com/chen-rn/CUA) (create-universal-app) template. This is also fully compatible with the latest version of CUA that's using Expo Router.
 
 The public extension is live on the VSCode marketplace [here](https://marketplace.visualstudio.com/items?itemName=albbus-stack.t3-cua-tools).
 
