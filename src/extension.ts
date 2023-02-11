@@ -1,27 +1,18 @@
 import { TextEncoder } from "util";
+import * as fs from "fs";
 import * as vscode from "vscode";
 import * as path from "path";
 
 const isWithExpoRouter = async (workspaceFolder: vscode.WorkspaceFolder) => {
-  let folderUri = vscode.Uri.file(
-    path.join(
-      workspaceFolder.uri.fsPath,
-      "packages",
-      "app",
-      "navigation",
-      "native"
-    )
+  let folderUri = path.join(
+    workspaceFolder.uri.fsPath,
+    "packages",
+    "app",
+    "navigation",
+    "native"
   );
 
-  let withExpoRouter = true;
-
-  await vscode.workspace.fs.stat(folderUri).then((stat) => {
-    if (stat.type === vscode.FileType.Directory) {
-      withExpoRouter = false;
-    }
-  });
-
-  return withExpoRouter;
+  return !fs.existsSync(folderUri);
 };
 
 export function activate(context: vscode.ExtensionContext) {
